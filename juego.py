@@ -10,8 +10,8 @@ seleccion_usuario_2 = input(f"{usuario_2}, elige piedra, papel o tijera: ").lowe
 if usuario_1 == usuario_2:
     print("¡Es un empate!")
 elif (seleccion_usuario_1 == "piedra" and seleccion_usuario_2 == "tijera") or \
-     (seleccion_usuario_1 == "papel" and seleccion_usuario_2 == "piedra") or \
-     (seleccion_usuario_1 == "tijera" and seleccion_usuario_2 == "papel"):
+    (seleccion_usuario_1 == "papel" and seleccion_usuario_2 == "piedra") or \
+    (seleccion_usuario_1 == "tijera" and seleccion_usuario_2 == "papel"):
 
     mensaje = f"{usuario_1} ha ganado "
     if seleccion_usuario_1 == "piedra":
